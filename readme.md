@@ -96,8 +96,6 @@ Content-Type: application/json
 
 A documentação da API é gerada automaticamente utilizando o Swagger. Você pode acessá-la localmente em [http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html).
 
-## Mascote Go
-
 <img src="https://go.dev/images/gophers/motorcycle.svg" style="width: 40%;" alt="Go Mascote">
 
 ---
