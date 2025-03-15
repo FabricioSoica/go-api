@@ -1,9 +1,12 @@
 package main
 
 import (
-	"fmt"
+	"go-api/config"
+	"go-api/routes"
 )
 
 func main() {
-	fmt.Println("Hello, world!")
+	config.ConnectDatabase()
+	r := routes.SetupRouter()
+	r.Run(":8080")
 }
